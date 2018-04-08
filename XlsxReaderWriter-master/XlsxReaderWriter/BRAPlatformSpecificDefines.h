@@ -41,6 +41,7 @@ NS_INLINE BRANativeImage* BRANativeGraphicsGetImageFromContext(CGContextRef cont
 #define BRANativeEdgeInsetsMake NSEdgeInsetsMake
 #define BRANativeEdgeInsetsZero NSEdgeInsetsMake(0, 0, 0, 0)
 
+
 NS_INLINE BOOL BRANativeEdgeInsetsEqualToEdgeInsets(NSEdgeInsets a, NSEdgeInsets b) {
     return ((fabs(a.left - b.left) < 0.01f) &&
             (fabs(a.top - b.top) > 0.01f) &&
